@@ -42,28 +42,28 @@ a {
   color: #e7878b;
 }
 
-.advantage-button-2 {
+.advantage-button-apps {
   background-color: #00ca74;
 }
 
-.advantage-button-2:hover {
+.advantage-button-apps:hover {
   background-color: #01bc6d;
 }
 
-.advantage-button-2:active {
+.advantage-button-apps:active {
   background-color: #00aa63;
   color: #77c59b;
 }
 
-.advantage-button-3 {
+.advantage-button-presentation {
   background-color: #efc849;
 }
 
-.advantage-button-3:hover {
+.advantage-button-presentation:hover {
   background-color: #eab535;
 }
 
-.advantage-button-3:active {
+.advantage-button-presentation:active {
   background-color: #e6a823;
   color: #eec279;
 }
@@ -90,8 +90,21 @@ a {
 .main-header,
 .slider {
   background-color: #eeeeee;
-  color: #000000;
-  list-style: none; /*Почему не работает?*/
+  color: #000000; /*Почему не работает?*/
+}
+
+/*Списки*/
+.navigation-list,
+.slider-list,
+.advantages-list,
+.partners-list,
+.footer-social-list,
+.about-us-list,
+.filter-list,
+.sort-list,
+.templates-list,
+.pagination-list {
+  list-style: none;
 }
 
 .main-header a {
@@ -120,12 +133,6 @@ a {
   font-weight: 500;
 }
 
-.advantages,
-.partners {
-  list-style: none; /*И опять не работает*/
-}
-
-/*Не понимаю, зачем этот класс, если можно сделать контекстный селектор .advantage-item h3*/
 .advantage-title {
   font-size: 24px;
   line-height: 30px;
@@ -133,7 +140,6 @@ a {
   text-transform: uppercase;
 }
 
-/*Еще один класс, без которого можно обойтись...*/
 .about-us-title {
   font-size: 45px;
   line-height: 54px;
@@ -247,22 +253,22 @@ a {
   opacity: 0.1;
 }
 
-.sort-item a {
+.sort-link {
   color: #000000;
   opacity: 0.3;
   font-size: 14px;
   line-height: 18px;
 }
 
-.sort-item a:hover {
+.sort-link:hover {
   opacity: 0.5;
 }
 
-.sort-item a:active {
+.sort-link:active {
   opacity: 1.0;
 }
 
-.template-title a {
+.template-link {
   color: #000000;
   font-size: 18px;
   line-height: 30px;
