@@ -30,13 +30,13 @@ a {
 }
 
 .slide-button:hover,
-.advantage-button-1:hover,
+.advantage-button-site:hover,
 .template-button:hover {
   background-color: #e74246;
 }
 
 .slide-button:active,
-.advantage-button-1:active,
+.advantage-button-site:active,
 .template-button:active {
   background-color: #d7363b;
   color: #e7878b;
@@ -212,7 +212,7 @@ a {
 .feedback-item input:focus,
 .feedback-item textarea:focus {
   border: 2px solid #000000;
-  color: #000000; /*Не работает!*/
+  color: #000000;
 }
 
 .feedback-item input:invalid,
